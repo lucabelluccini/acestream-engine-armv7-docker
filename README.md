@@ -19,7 +19,7 @@ docker build acestream-armv7 .
 Privileged is required only because the binaries are for 32bit binaries and would require ```PER_LINUX32``` permission.
 
 ```
-docker run --network host --privileged -it --rm -p8621:8621 -p6878:6878 acestream-armv7
+docker run --privileged -it --rm -p8621:8621 -p6878:6878 acestream-armv7
 ```
 
 ## How to open an Acestream ID on VLC
