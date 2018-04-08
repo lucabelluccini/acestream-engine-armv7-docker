@@ -1,6 +1,12 @@
 # Acestream-engine-armv7-docker
 
-Docker image to run acestream-engine on ARMv7
+Docker image to run acestream-engine on ARMv7.
+
+Mostly a "docker" rework of [SshManko/acestream-armv7](https://github.com/sshmanko/acestream-armv7.git).
+
+The docker image is a fake Android Filesystem where the Acestream Engine binaries from the APK are started.
+
+Acestream for Android is developed using Python for Android.
 
 ## How to build the image
 
