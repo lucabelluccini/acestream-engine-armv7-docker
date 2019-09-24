@@ -27,3 +27,10 @@ docker run --privileged -it --rm -p8621:8621 -p6878:6878 acestream-armv7
 ```
 http://<ip>:6878/ace/getstream?id=<Acestream ID>&hlc=1&spv=0&transcode_audio=0&transcode_mp3=0&transcode_ac3=0&preferred_audio_language=eng
 ```
+
+## How to run it on a x86 machine
+
+```
+docker run --rm --privileged hypriot/qemu-register
+# then run normally
+```
